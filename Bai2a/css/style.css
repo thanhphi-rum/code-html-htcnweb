@@ -2,8 +2,11 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
-#khung {
+#border {
     width: 900px;
-    border: 2px solid black;
+    border: 2px solid rgb(109, 216, 228);
     padding: 10px;
+}
+p {
+    margin-bottom: 20px;
 }
