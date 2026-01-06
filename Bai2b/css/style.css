@@ -1,0 +1,25 @@
+.stars {
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+h2 {
+    font-size: 24px;
+}
+li {
+    font-size: 16px;
+}
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+body {
+    padding: 20px;
+    margin: 0;
+}
+.img {
+    height: auto;
+    width: 200px;
+    margin-bottom: 15px;
+}
