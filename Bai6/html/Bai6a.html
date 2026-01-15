@@ -4,10 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bai 6a</title>
+    <link rel="stylesheet" href="../css/Bai6a.css">
 </head>
 <body>
-    <div>
+    <div class="container">
+        <div class="tittle1">
+            <h1 class="bordered">
+                Jackson
+                <br>
+                Electronics
+            </h1>
+        </div>
+        <br>
+        <div class="tittle2">
+            <h2>Registration Form</h2>
+            <br>
+            <span>Register your Jackson Electronics product here</span>
+        </div>
         <div>
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="firstName" size="20"></td>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="lastName" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Address#1:</td>
+                    <td><input type="text" name="address1" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Address#2:</td>
+                    <td><input type="text" name="address2" size="30"></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" name="city" size="20"></td>
+                    <td>State:</td>
+                    <td><input type="text" name="state" size="5"></td>
+                    <td>Zip:</td>
+                    <td><input type="text" name="zipCode" size="5"></td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td><input type="text" name="country" size="20"></td>
+                </tr>
+                <tr>
+                    <td colspan="8"><hr style="margin: 10px 10px;" color="black"></td>
+                </tr>
+                <tr>
+                    <td>Date of Purchase:</td>
+                    <td><input type="date" name="dateOfPurchase"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>

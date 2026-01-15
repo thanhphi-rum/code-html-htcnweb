@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tittle1 {
+    text-align: center;
+    color: blue;
+}
+.tittle2 {
+    text-align: center;
+}
+.bordered {
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #00FFFF;
+    box-shadow: 6px 6px 0px #888888;
+}
+.container {
+    background: #87CEEB;
+    border: 2px solid black;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+/* input {
+    margin: 2px 50px;
+} */
