@@ -25,6 +25,34 @@
     padding: 20px;
     margin: 0 auto;
 }
-/* input {
-    margin: 2px 50px;
-} */
+hr {
+    margin: 10px 10px;
+    border: 1px solid black;
+}
+form {
+    margin: 10px 10px;
+}
+textarea {
+    width: 400px;
+    padding: 10px;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.comment-format {
+    display: flex;
+    align-items: self-start;
+    margin-top: 10px;
+}
+.comment-format label {
+    width: 90px;
+    margin-top: 10px;
+}
+.comment-format textarea {
+    width: 350px;
+    height: 90px;
+    resize: none;
+}

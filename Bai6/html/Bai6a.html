@@ -22,47 +22,70 @@
             <span>Register your Jackson Electronics product here</span>
         </div>
         <div>
-            <table>
-                <tr>
-                    <td>First Name:</td>
-                    <td><input type="text" name="firstName" size="20"></td>
-                    <td>Last Name:</td>
-                    <td><input type="text" name="lastName" size="20"></td>
-                </tr>
-                <tr>
-                    <td>Address#1:</td>
-                    <td><input type="text" name="address1" size="30"></td>
-                </tr>
-                <tr>
-                    <td>Address#2:</td>
-                    <td><input type="text" name="address2" size="30"></td>
-                </tr>
-                <tr>
-                    <td>City:</td>
-                    <td><input type="text" name="city" size="20"></td>
-                    <td>State:</td>
-                    <td><input type="text" name="state" size="5"></td>
-                    <td>Zip:</td>
-                    <td><input type="text" name="zipCode" size="5"></td>
-                </tr>
-                <tr>
-                    <td>Country:</td>
-                    <td><input type="text" name="country" size="20"></td>
-                </tr>
-                <tr>
-                    <td colspan="8"><hr style="margin: 10px 10px;" color="black"></td>
-                </tr>
-                <tr>
-                    <td>Date of Purchase:</td>
-                    <td><input type="date" name="dateOfPurchase"></td>
-                </tr>
-                <tr>
-                    <td colspan="2" style="text-align: center;">
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
-                    </td>
-                </tr>
-            </table>
+            <form action="">
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" size="15">
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" size="20">
+                <br>
+                <label for="address1">Address#1:</label>
+                <input type="text" name="address1" size="30">
+                <br>
+                <label for="address2">Address#2:</label>
+                <input type="text" name="address2" size="30">
+                <br>
+                <td><label for="city">City:</label></td>
+                <input type="text" name="city" size="20">
+                <label for="state">State:</label>
+                <input type="text" name="state" size="5">
+                <label for="zipCode">Zip:</label>
+                <input type="text" name="zipCode" size="5">
+                <br>
+                <label for="country">Country:</label>
+                <input type="text" name="country" size="20">
+                <hr>
+                <td><label for="product">Product:</label></td>
+                <select name="course" id="course">
+                    <optgroup>
+                        <option value="1">ScanMaster</option>
+                        <option value="2">Example1</option>
+                        <option value="3">Example2</option>
+                        <option value="4">Example3</option>
+                        <option value="5">Example4</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for="datepurchased">Date Purchased:</label>
+                <input type="text" name="datepurchased" size="20">
+                <br>
+                <label for="serial">Serial#:</label>
+                <input type="text" name="serial" size="20">
+                <br>
+                <label for="usefor">Used For:</label>
+                <input type="radio" name="usefor">Home
+                <input type="radio" name="usefor">Educational Institution
+                <br>
+                <input type="radio" name="usefor">Business
+                <input type="radio" name="usefor">Other
+                <br>
+                <input type="radio" name="usefor">Govemment
+                <br>
+                <label for="system">System (check all that apply):</label>
+                <input type="checkbox" name="system">Windows
+                <input type="checkbox" name="system">UNIX
+                <br>
+                <input type="checkbox" name="system">Macintosh
+                <input type="checkbox" name="system">Other
+                <hr>
+                <div class="comment-format">
+                    <label for="cmt">Comments?:</label>
+                    <textarea name="cmt" id="cmt"></textarea>
+                </div>
+                <div class="button-group">
+                    <button>Click to register</button>
+                    <button>Click to cancel</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
