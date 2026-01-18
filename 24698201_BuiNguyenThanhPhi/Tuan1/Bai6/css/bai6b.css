@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 2px solid rgb(39, 130, 130);
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px 10px;
+}
+tr, td, fieldset {
+    padding: 10px 10px;
+}
+#message {
+    width: 500px;
+    height: 100px;
+}
