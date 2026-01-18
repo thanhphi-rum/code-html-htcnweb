@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    background-color: rgb(111, 166, 230);
+    width: 700px;
+    border-collapse: collapse;
+    border: 1px solid rgb(218, 213, 213);
+    margin: 0 auto;
+    padding: 5px 30px;
+}
+
+tr,
+th {
+    width: 500px;
+}
+
+hr {
+    margin: 10px 10px;
+    border: 1px solid black;
+}
+
+#cmt {
+    width: 400px;
+    height: 100px;
+}
+
+td {
+    padding: 0 20px;
+    vertical-align: top;
+}
+img {
+    width: 300px;
+}
+h1 {
+    margin: 10px 0;
+}

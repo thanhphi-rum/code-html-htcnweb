@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6A</title>
+    <link rel="stylesheet" href="../css/bai6a.css">
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="3" align="center">
+                    <img src="../img/Untitled.jpg" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <h1>Registration Form</h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    Register your Jackson Electronics product here
+                </td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td colspan="2">
+                    <input type="text" name="firstname" id="firstname" size="15">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" size="15">
+                </td>
+            </tr>
+            <tr>
+                <td>Address#1:</td>
+                <td colspan="2">
+                    <input type="text" name="address#1" id="address#1" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Address#2:</td>
+                <td colspan="2">
+                    <input type="text" name="address#2" id="address#2" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td colspan="2">
+                    <input type="text" name="city" id="city" size="20">
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state" size="5">
+                    <label for="zip">Zip:</label>
+                    <input type="text" name="zip" id="zip" size="10">
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td colspan="2">
+                    <input type="text" name="conutry" id="conutry">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>Product:</td>
+                <td colspan="2">
+                    <select name="product" id="product" size="">
+                        <option value="1">
+                            ScanMaster
+                        </option>
+                        <option value="2">
+                            Example1
+                        </option>
+                        <option value="2">
+                            Example2
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Date Purchased:</td>
+                <td colspan="2">
+                    <input type="text" name="datepurchased" id="datepurchased">
+                </td>
+            </tr>
+            <tr>
+                <td>Serial#:</td>
+                <td colspan="2">
+                    <input type="text" name="serial" id="serial">
+                </td>
+            </tr>
+            <tr>
+                <td>Used For:</td>
+                <td>
+                    <input type="radio" name="usedfor" id="usedfor" value="home">Home
+                    <br>
+                    <input type="radio" name="usedfor" id="usedfor" value="business">Business
+                    <br>
+                    <input type="radio" name="usedfor" id="usedfor" value="govemment">Govemment
+                </td>
+                <td>
+                    <input type="radio" name="usedfor" id="usedfor" value="educationalinstitution">Educational Institution
+                    <br>
+                    <input type="radio" name="usedfor" id="usedfor" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td>System (check all that apply):</td>
+                <td>
+                    <input type="checkbox" name="system" id="system">Windows
+                    <br>
+                    <input type="checkbox" name="system" id="system">Macintosh
+                </td>
+                <td>
+                    <input type="checkbox" name="system" id="system">UNIX
+                    <br>
+                    <input type="checkbox" name="system" id="system">Other
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td>Comments?:</td>
+                <td colspan="2">
+                    <textarea name="cmt" id="cmt" cols="30" rows="10">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <button type="submit">Click to register</button>
+                    <button type="reset">Click to cancel</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
