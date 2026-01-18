@@ -1,16 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-}
-#heading {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    margin-top: 10px;
+    box-sizing: border-box;
 }
 .container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px 10px;
+    background-color: aqua;
+}
+li {
+    margin: 10px 20px;
+}
+p {
+    margin: 10px 0;
+}
+h1, h2 {
+    margin: 10px 0;
+}
+hr {
+    margin: 10px 0;
+}
+img {
+    width: 500px;
 }
