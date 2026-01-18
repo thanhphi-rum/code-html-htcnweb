@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 2px solid blue;
+    margin: 0 auto;
+    width: 300px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+td {
+    padding-top: 10px;
+}
+.button-format {
+    width: 400px;
+    height: 30px;
+}
+button {
+    padding: 5px 10px;
+}
