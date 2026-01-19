@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1 {
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    color: brown;
+    text-shadow: 10px 10px 10px rgb(243, 152, 152);
+    margin: 10px 0;
+}
+.container {
+    border: 1px solid pink;
+    margin: 0 auto;
+    width: 1000px;
+}
+nav ul li {
+    text-transform: uppercase;
+    color: white;
+    
+}
+nav {
+    display: inline-block;
+    background-color: pink;
+}
