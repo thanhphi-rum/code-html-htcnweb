@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    padding: 10px 10px;
+}
+nav a:first-child{
+    padding-left: 30px;
+}
+nav a {
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 5px;
+}
+nav {
+    border: 1px solid black;
+}
+section h2 {
+    text-transform: capitalize;
+    color: brown;
+    background-color: white;
+    margin-left: 10px;
+}
+section ul li {
+    margin-left: 50px;
+}
