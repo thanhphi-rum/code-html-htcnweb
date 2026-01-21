@@ -3,37 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-header h1{
-    border: 1px solid black;
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1 {
     text-align: center;
-    padding: 20px;
-    color: red;
+    color: #b22222;
     text-transform: uppercase;
     font-style: italic;
+    text-shadow: 10px 10px 5px #FFC0CB;
+    margin: 20px 0;
 }
-.container {
+#border {
     width: 1000px;
     margin: 0 auto;
-    border: 2px solid gray;
-    padding: 10px 10px;
+    border: 2px solid black;
+    height: 400px;
 }
-nav a:first-child{
-    padding-left: 30px;
+hr {
+    margin: 2px 0;
 }
 nav a {
-    text-transform: capitalize;
     text-decoration: none;
-    margin-left: 5px;
-}
-nav {
-    border: 1px solid black;
-}
-section h2 {
-    text-transform: capitalize;
-    color: brown;
-    background-color: white;
     margin-left: 10px;
 }
+nav a:first-child {
+    margin-left: 40px;
+}
+section h2 {
+    font-size: 30px;
+    color: #b22222;
+    background-color: #F5F5DC;
+}
 section ul li {
-    margin-left: 50px;
+    margin-left: 40px;
+}
+section h4 a {
+    color: red;
+}
+.starter-section ul li:nth-child(3) {
+    text-transform: uppercase;
+    color: #D2691E;
+    font-weight: bold;
+}
+.veg-note {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
 }
