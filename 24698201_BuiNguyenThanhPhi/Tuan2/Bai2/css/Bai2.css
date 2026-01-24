@@ -6,6 +6,9 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    margin: 30px;
+}
 .container {
     width: 1000px;
     height: 880px;
@@ -96,11 +99,31 @@ nav ul li:first-child a {
 }
 .link-1 {
     list-style: none;
-    line-height: 50px;
+    line-height: 60px;
 }
 .link-1 li a {
     text-decoration: none;
     color: palevioletred;
     border-bottom: 1px solid #eee;
     padding-bottom: 15px;
+}
+.link-1 ul {
+    list-style: none;
+}
+.link-1 h2 {
+    margin-top: -15px;
+}
+.link-2 ul {
+    list-style: none;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.link-2 h2 {
+    color: palevioletred;
+    margin-top: 30px;
+}
+footer address {
+    color: white;
+    padding-top: 8px;
+    margin-left: 10px;
 }
