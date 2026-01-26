@@ -1,27 +1,52 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
-header h1 {
-    text-align: center;
-    font-style: italic;
-    text-transform: uppercase;
-    color: brown;
-    text-shadow: 10px 10px 10px rgb(243, 152, 152);
-    margin: 10px 0;
+body {
+    margin: 20px 0;
 }
 .container {
-    border: 1px solid pink;
-    margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
+    height: 1000px;
+    border: 1px solid black;
 }
-nav ul li {
-    text-transform: uppercase;
-    color: white;
-    
+.header {
+    background-color: aqua;
+    width: 100%;
+    height: 80px;
 }
-nav {
-    display: inline-block;
-    background-color: pink;
+.nav {
+    background-color: aquamarine;
+    width: 100%;
+    height: 50px;
+}
+.section {
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+}
+.content-l {
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+.content-m {
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
+.content-r {
+    width: 25%;
+    height: 100%;
+    background-color: yellowgreen;
+    float: right;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    clear: both;
 }
