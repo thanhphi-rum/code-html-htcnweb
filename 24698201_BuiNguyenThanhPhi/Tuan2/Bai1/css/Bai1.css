@@ -12,41 +12,187 @@ body {
     border: 1px solid black;
 }
 .header {
-    background-color: aqua;
     width: 100%;
     height: 80px;
 }
+.header h1 {
+    text-transform: uppercase;
+    color: #9f3130;
+    text-shadow: 5px 5px 3px brown;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+}
 .nav {
-    background-color: aquamarine;
+    background-color: #ea9596;
     width: 100%;
     height: 50px;
+}
+.nav .img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: end;
+    border-right: 1px solid black;
+}
+.img img {
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.nav .menu {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.menu ul {
+    text-align: center;
+
+}
+.menu ul li {
+    display: inline-block;
+    height: 50px;
+    border-right: 1px solid black;
+    align-content: center;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin: 10px 10px;
+}
+.nav .search {
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+.search {
+    align-content: end;
+}
+.search form {
+    margin: 10px 30px;
 }
 .section {
     width: 100%;
     height: 800px;
-    background-color: antiquewhite;
 }
 .content-l {
     width: 25%;
     height: 100%;
-    background-color: blue;
     float: left;
+}
+.list ul {
+    padding: 0 10px;
+}
+.list ul li {
+    background-color: #e89595;
+    margin-top: 10px;
+    height: 30px;
+    align-content: center;
+    border-radius: 20px;
+    padding: 0 10px;
+    list-style: none;
+}
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+.radius img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #febfcd;
 }
 .content-m {
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
     float: left;
+}
+.starter {
+    width: 100%;
+    margin-top: 10px;
+}
+.content-m h2 {
+    width: 50%;
+    background-color: #ee9494;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #9f3130;
+    margin-bottom: 20px;
+}
+.content-m ul {
+    margin-left: 40px;
+}
+.starter ul li:nth-child(3) {
+    text-transform: uppercase;
+    color: #D2691E;
+    font-weight: bold;
+}
+.veg-note {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+.form {
+    height: 55%;
+    width: 100%;
+}
+.form table {
+    width: 100%;
+    height: 100%;
+    border-spacing: 10px;
+}
+.form table textarea {
+    width: 100%;
+    height: 100px;
+}
+.form table select {
+    width: 100%;
+    height: 50px;
+}
+.form table #fname, #lname, #email, #tel {
+    width: 100%;
+    height: 50px;
+}
+.form table input, select, textarea {
+    padding: 10px;
+}
+#button {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
 }
 .content-r {
     width: 25%;
-    height: 100%;
-    background-color: yellowgreen;
+    height: 85%;
+    background-color: black;
     float: right;
+    margin-top: 10px;
+}
+.content-r h2, p {
+    color: white;
+}
+.content-r .main {
+    margin: 30px;
+}
+.content-r img {
+    width: 100%;
+}
+.meeting {
+    margin-bottom: 20px;
 }
 .footer {
     width: 100%;
     height: 70px;
-    background-color: black;
+    background-color: #ee9494;
     clear: both;
+    text-align: center;
+}
+.footer address {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
 }
