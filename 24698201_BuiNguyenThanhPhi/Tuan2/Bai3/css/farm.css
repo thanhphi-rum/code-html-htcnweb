@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+.container{
+    padding: 15px;
+}
+/* header */
+.header{
+    width: 110%;
+    height: 180px;
+    background-image: url(../img/salogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 76%;
+}
+
+.aside{
+    height: 98%;
+    width: 16%;
+    float: left;
+}
+.aside ul{
+    width: 180px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: white;
+    display: block;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.aside ul li {
+    padding: 10px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.aside ul li a{
+    display: block;
+    text-decoration: none;
+
+}   
+.aside ul li a:hover{    
+    background-color: black;
+    color: white;
+}
+.main-content{
+    padding-left: 20px;
+    height: 98%;
+    width: 84%;
+    float: left;color: white;
+    border-left: 2px green solid;
+    margin-bottom: 20px;
+}
+.header1{
+    width: 80%;
+}
+.box1{
+    padding-bottom: 25px;
+}
+.box1 h1{
+    text-align: left;
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 10px;
+    background-color: green;
+}
+
+.box1 p{
+    padding-top: 15px;
+   text-align: left ;
+   font-weight: lighter;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.box1 img{
+    float: right;
+    margin: 5px;
+}
+.banner{
+    width: 35%;
+}
+.box2 h3{
+    text-align: left;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+.box2 ul {
+    padding: 20px 40px;
+}
+.box2 ul li {
+    text-align: left ;
+   font-weight: lighter;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    clear: both;
+    height: 50px;
+    width: 100%;
+    border-top: 6px green double;
+    color: #fff;
+    text-align: center;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 3px;
+}
