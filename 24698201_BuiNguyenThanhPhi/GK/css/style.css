@@ -44,23 +44,17 @@ body {
     width: 100%;
     height: 100%;
 }
+.section {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
 .section-left {
-    background-color: aqua;
     width: 35%;
-    height: 450px;
+    height: 400px;
     float: left;
-}
-.section-mid {
-    background-color: aquamarine;
-    width: 35%;
-    height: 450px;
-    float: left;
-}
-.section-right {
-    background-color: blue;
-    width: 30%;
-    height: 450px;
-    float: left;
+    justify-items: center;
+    padding-right: 10px;
 }
 .section-left ul li {
     list-style: none;
@@ -70,18 +64,34 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: black;
-}
-.section-left ul {
-    margin: 10px 20px;
+    margin: 5px;
+    display: block;
+    padding: 15px;
 }
 .section-left ul li:first-child {
-    background-color: red;
+    background-color: #da3642;
     color: white;
     font-weight: bold;
 }
+.section-left ul {
+    width: 80%;
+    margin: 0 20px;
+}
+.section-mid {
+    width: 35%;
+    height: 400px;
+    float: left;
+}
+.section-right {
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+
 .footer {
     background-color: #efb921;
     width: 100%;
-    height: 49px;
+    height: 70px;
     clear: both;
+    margin-top: 29px;
 }
