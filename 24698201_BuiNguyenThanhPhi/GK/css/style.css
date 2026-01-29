@@ -23,8 +23,9 @@ body {
 }
 .header ul {
     position: absolute;
-    right: 100px;
-    top: 40px;
+    right: 300px;
+    top: 50px;
+
 }
 .header ul li {
     display: inline-block;
@@ -81,17 +82,77 @@ body {
     width: 35%;
     height: 400px;
     float: left;
+    padding-right: 40px;
+}
+.section-mid form {
+    height: 100%;
+}
+.section-mid form input, label, select {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+}
+.section-mid form textarea {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-mid form button {
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 30px;
 }
 .section-right {
     width: 30%;
     height: 400px;
     float: left;
 }
-
+.section-right img {
+    width: 90%;
+    height: 80%;
+}
+.section-right .para p {
+    text-align: center;
+    font-weight: bold;
+    color: #262425;
+}
+.section-right .para {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 45px;
+}
+.section-right .add button {
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-color: red;
+}
+.section-right .add {
+    text-align: center;
+}
 .footer {
-    background-color: #efb921;
+    background-color: black;
     width: 100%;
     height: 70px;
     clear: both;
     margin-top: 29px;
+    color: white;
+}
+.footer .ft-l {
+    width: 50%;
+    height: 100%;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+}
+.footer .ft-r {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
 }
