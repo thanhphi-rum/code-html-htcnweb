@@ -7,20 +7,25 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
+    color: white;
     margin: 10px 0;
-    background: linear-gradient(to bottom, #89C4F4, #4A90E2);
 }
 .container {
     width: 1400px;
     height: 700px;
     border: 1px solid black;
+        background: linear-gradient(#6dc5ed);
 }
 .menu {
-    background-color: aqua;
     width: 100%;
     height: 80px;
-    border-bottom: 3px dashed black;
+    border-bottom: 3px dashed white;
     display: flex;
+}
+.menu .txt {
+    align-content: center;
+    text-shadow: 5px 5px 5px blue;
+    color: white;
 }
 .nav {
     align-content: center;
@@ -40,22 +45,104 @@ body {
     height: 536px;
 }
 .content-l {
-    background-color: aquamarine;
     width: 50%;
     height: 538px;
     float: left;
 }
+.content-l .header {
+    margin: 30px 5px;
+}
+.content-l .par {
+    margin: 0 5px;
+}
+.content-l .form {
+    margin: 20px 50px;
+}
+.format-form label {
+    width: 150px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.format-form input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.format-form select {
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.format-form textarea {
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.format-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.format-form:first-child {
+    align-items: flex-start;
+}
+.format-form1 {
+    padding-left: 300px;
+}
+.format-form1 button {
+    width: 50px;
+    height: 30px;
+    margin-right: 5px;
+    border: 1px dashed blue;
+}
+.format-form2 {
+    width: 100%;
+    height: 30px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.format-form2 label {
+    margin-right: 137px;
+}
+.format-form2 select {
+    height: 30px;
+    border-radius: 20px;
+    width: 50px;
+}
 .content-r {
-    background-color: pink;
     width: 50%;
     height: 538px;
     float: right;
 }
+.content-r .img img {
+    width: 600px;
+    height: 430px;
+}
+.img-text {
+    color: blue;
+    font-weight: bold;
+    margin: 5px 30px;
+    font-size: 22px;
+    text-align: center;
+}
+.text1 h2 {
+    text-shadow: 1px 6px 3px blue;
+}
 .footer {
-    background-color: blue;
     width: 100%;
     height: 80px;
     clear: both;
     margin-top: 3px;
     border-top: 3px dashed black;
+}
+.footer .ft-text {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
 }
