@@ -1,0 +1,170 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: serif;
+}
+body {
+    margin: 10px 0;
+}
+.container {
+    width: 1200px;
+    height: 800px;
+    border: 1px solid black;
+}
+.header {
+    background-color: #ad4d0d;
+    width: 100%;
+    height: 100px;
+}
+.header h1 {
+    color: #8e7a13;
+    padding-top: 15px;
+    margin-left: 30px;
+    font-size: 60px;
+    text-shadow: -5px -5px 5px white;
+}
+.nav {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.nav ul {
+    padding-top: 10px;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #dba021;
+    margin-left: 40px;
+}
+.section {
+    width: 100%;
+    height: 580px;
+}
+.content-header {
+    width: 100%;
+    height: 130px;
+}
+.content-header img {
+    width: 100%;
+    height: 130px;
+}
+.content-l {
+    width: 70%;
+    height: 450px;
+    float: left;
+    border-right: 1px solid #f6f6f6;
+}
+.text h2 {
+    color: #b07d35;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.text p {
+    color: #b9b185;
+    margin: 20px 60px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.form form{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+}
+.form form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    outline: none;
+    color: #555;
+}
+.form form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #788008;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.content-r {
+    width: 30%;
+    height: 450px;
+    float: right;
+}
+.link {
+    background-color: #faebd8;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    width: 80%;
+    height: 210px;
+}
+.link h2 {
+    color: #6f5442;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.link ul {
+    list-style-type: square;
+    color: #a0522d;
+    padding-left: 40px;
+}
+.link ul li {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+.moreif {
+    padding: 40px;
+}
+.moreif img {
+    width: 80px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.moreif p {
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+}
+.moreif h2 {
+    color: #5d4037;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.footer {
+    background-image: url(../img/footer.png);
+    width: 100%;
+    height: 69px;
+    clear: both;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+.footer address {
+    font-size: 30px;
+    width: 100%;
+    color: rgb(43, 40, 40);
+}

@@ -1,0 +1,15 @@
+.container {
+    background-image: linear-gradient(#6dc4ee, #5fadef);
+}
+header {
+    border-bottom: 3px dotted white;
+}
+.dashed-border {
+    background-color: #b8b6c0;
+}
+footer {
+    border-top: 3px dotted white;
+}
+img {
+    padding-right: 100px;
+}
