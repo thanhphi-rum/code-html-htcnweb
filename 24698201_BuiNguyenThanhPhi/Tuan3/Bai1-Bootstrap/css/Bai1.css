@@ -33,5 +33,6 @@ html {
     border-style: dashed !important;
 }
 .custom-button {
-    border: 3px dashed blue !important;
+    border: 2px dashed blue !important;
+    background-color: rgb(222, 217, 217) !important;
 }
