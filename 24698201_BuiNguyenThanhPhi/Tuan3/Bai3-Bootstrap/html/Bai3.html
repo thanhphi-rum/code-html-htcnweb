@@ -3,69 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuan 3 - Bai 3</title>
+    <title>Tuan 3 - Bai3-Bootstrap</title>
     <link rel="stylesheet" href="../css/Bai3.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="container border-container">
+        <!-- header -->
+        <div class="header text-center fw-bold format-header">
             <h1>AUTUMN TRAVEL COMPANY</h1>
         </div>
-        <div class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Services </a></li>
-                <li><a href="#">Order</a></li>
+        <!-- nav -->
+        <div class="nav border border-dark border-1">
+            <ul class="d-flex list-unstyled m-0 p-2">
+                <li class="me-4">
+                    <a href="#" class="text-decoration-none">Home</a>
+                </li>
+                <li class="me-4">
+                    <a href="#" class="text-decoration-none">About</a>
+                </li>
+                <li class="me-4">
+                    <a href="#" class="text-decoration-none">Products</a>
+                </li>
+                <li class="me-4">
+                    <a href="#" class="text-decoration-none">Services</a>
+                </li>
+                <li class="me-4">
+                    <a href="#" class="text-decoration-none">Order</a>
+                </li>
             </ul>
         </div>
+        <!-- banner -->
+         <div class="banner">
+            <img src="../img/line1.png" class="w-100" alt="">
+         </div>
+         <!-- section -->
         <div class="section">
-            <div class="content-header">
-                <img src="../img/line1.png" alt="">
-            </div>
-            <div class="content-l">
-                <div class="text">
-                    <h2>Sign up for membership benefits</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Sign up for membership benefits</h3>
                     <p>
                         Our philisophical are transparency, respect,
                         formality and responsibility. Our stimulus is your enthusiasm. 
                         Our motto is your satisfation.
                     </p>
-                </div>
-                <div class="form">
-                    <form action="#">
-                        <input type="text" id="name" name="name" placeholder="Username"><br>
-                        <input type="email" id="email" name="email" placeholder="E-mail"><br>
-                        <input type="password" id="password" name="password" placeholder="Password"><br>
-                        <input type="password" name="repass" id="repass" placeholder="Retype-password"><br>
-                        <button type="submit">Sign Me Up</button>
+                    <form action="">
+                         <input type="text" class="form-control mb-3 border-0 border-bottom rounded-0 shadow-none" placeholder="Username">
+                        <input type="email" class="form-control mb-3 border-0 border-bottom rounded-0 shadow-none" placeholder="E-mail">
+                        <input type="password" class="form-control mb-3 border-0 border-bottom rounded-0 shadow-none" placeholder="Password">
+                        <input type="password" class="form-control mb-3 border-0 border-bottom rounded-0 shadow-none" placeholder="Retype password">
+                        <button type="submit" class="text-uppercase btn btn-success my-3">Sign Me Up</button>
                     </form>
                 </div>
-            </div>
-            <div class="content-r">
-                <div class="link">
-                    <h2>Links</h2>
-                    <ul>
-                        <li>Make your Own Tour</li>
-                        <li>Maldives Tours</li>
-                        <li>Nature & Adventure</li>
-                        <li>Readymade Tour</li>
-                        <li>Europe Tours</li>
-                        <li>Rusia Tours</li>
-                    </ul>
-                </div>
-                <div class="moreif">
-                    <h2>More Info</h2>
-                    <p>
-                        <img src="../img/leaf.png" alt="">
-                        Our purpose is the client who gives to us the opportunites to serve and to make known the reality arround the world
-                    </p>
+                <div class="col-md-4">
+                    <div class="box mb-3 format-box">
+                        <h3>Links</h3>
+                        <ul>
+                            <li class="list-square">
+                                <a href="#" class="text-decoration-none">Make your Own Tour</a>
+                            </li>
+                            <li class="list-square">
+                                <a href="#" class="text-decoration-none">Maldives Tours</a>
+                            </li>
+                            <li class="list-square">
+                                <a href="#" class="text-decoration-none">Nature & Adventure</a>
+                            </li>
+                            <li class="list-square">
+                                <a href="#" class="text-decoration-none">Readymade Tours</a>
+                            </li>
+                            <li class="list-square">
+                                <a href="#" class="text-decoration-none">Europe Tours</a>
+                            </li>
+                            <li class="list-square">
+                                <a href="#" class="text-decoration-none">Rusia Tours</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>More info</h3>
+                        <div class="d-flex">
+                            <img src="../img/leaf.png" width="60" class="me-2">
+                            <p class="small">
+                                Our purpose is the client who gives to us the opportunites to serve and to make known the reality arround the world
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <address>2017 Software Engineering Department Test Date 16 Sep 2017</address>
+        <div class="footer custom-ft">
+            <p>2017 Software Engineering Department Test Date 16 Sep 2017</p>
         </div>
     </div>
 </body>
