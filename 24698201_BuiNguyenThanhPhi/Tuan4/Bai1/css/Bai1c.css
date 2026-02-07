@@ -1,0 +1,30 @@
+.custom-img {
+    width: 50px;
+    height: 50px;
+}
+.custom-badge {
+    height: 25px;
+    align-content: center;
+    margin-top: 5px;
+}
+.custom-badge-color-active {
+    color: #2E7D32 !important;
+    background-color: #dbefe2 !important;
+}
+.custom-badge-color-onboarding {
+    color: #1565C0 !important;
+    background-color: #E3F2FD !important;
+}
+.custom-badge-color-awaiting {
+    color: #EF6C00 !important;
+    background-color: #FFF3E0 !important;
+}
+.custom-pos {
+    height: 25px;
+    padding-top: 5px;
+}
+.custom-button {
+    height: 25px;
+    align-content: center;
+    padding-bottom: 5px;
+}
