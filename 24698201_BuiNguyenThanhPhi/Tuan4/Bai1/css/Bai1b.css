@@ -1,0 +1,5 @@
+.height-img {
+    height: 200px !important;
+    object-fit: cover;
+    object-position: center;
+}
