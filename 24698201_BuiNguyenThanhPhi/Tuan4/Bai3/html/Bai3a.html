@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan 4 - Bai3A</title>
+    <link rel="stylesheet" href="../css/Bai3a.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">
+            Open Modal
+        </button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Login</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <label for="email">Email</label> <br>
+                                    <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="col-sm-12">
+                                    <label for="pass">Password</label> <br>
+                                    <input type="password" name="pass" id="pass" placeholder="Password" class="form-control">
+                                </div>
+                                <div class="col-sm-12 mt-3">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
