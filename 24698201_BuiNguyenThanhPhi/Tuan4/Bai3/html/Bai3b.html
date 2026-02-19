@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan 4 - Bai3B</title>
+    <link rel="stylesheet" href="../css/Bai3b.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <span>Đăng nhập / Đăng ký</span>
+        </button>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    
+                    <div class="modal-header border-0 justify-content-center position-relative pt-4">
+                        <ul class="nav nav-tabs border-0" id="authTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active fw-bold text-uppercase fs-5 border-0 bg-transparent" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-pane" type="button" role="tab" style="color: #333;">Đăng nhập</button>
+                            </li>
+                            <li class="nav-item px-3 fs-5" style="line-height: 2;"> / </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-bold text-uppercase fs-5 border-0 bg-transparent" id="register-tab" data-bs-toggle="tab" data-bs-target="#register-pane" type="button" role="tab" style="color: #ff5f2d;">Đăng ký</button>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn-close position-absolute end-0 top-0 me-3 mt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body px-5 pb-4">
+                        <div class="tab-content" id="authTabContent">
+                            
+                            <div class="tab-pane fade show active" id="login-pane" role="tabpanel" aria-labelledby="login-tab">
+                                <p class="text-muted small mb-4">Vui lòng đăng nhập trước khi mua để tích lũy điểm, cơ hội nhận thêm nhiều ưu đãi từ chương trình thành viên Galaxy Cinema.</p>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="mb-2">
+                                    <input type="password" class="form-control" placeholder="Mật khẩu">
+                                </div>
+                                <a href="#" class="text-decoration-none small text-muted d-block mb-4">Quên mật khẩu?</a>
+                                <button class="btn w-100 text-white fw-bold py-2" style="background-color: #ff5f2d;">ĐĂNG NHẬP</button>
+                            </div>
+
+                            <div class="tab-pane fade" id="register-pane" role="tabpanel" aria-labelledby="register-tab">
+                                <div class="row g-2">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Họ tên">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Số điện thoại">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select text-muted"><option>Chọn giới tính</option></select>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="password" class="form-control" placeholder="Mật khẩu">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="password" class="form-control" placeholder="Xác nhận mật khẩu">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select text-muted"><option>Chọn thành phố</option></select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="form-select text-muted"><option>Quận</option></select>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Địa chỉ">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Chọn ngày (dd/mm/yyyy)">
+                                            <span class="input-group-text bg-white"><i class="bi bi-calendar3"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 d-flex align-items-center mt-3">
+                                        <div class="captcha-img me-2 p-2 border bg-light" style="font-family: 'Courier New'; font-weight: bold; letter-spacing: 3px; font-size: 1.1rem; white-space: nowrap;">
+                                            <span style="color: #ff9f43;">3</span><span style="color: #0fbcf9;">5</span><span style="color: #00d8d6;">2</span><span style="color: #ffdd59;">1</span><span style="color: #ef5777;">7</span><span style="color: #575fcf;">6</span>
+                                        </div>
+                                        <button type="button" class="btn btn-link text-dark p-0 me-3"><i class="bi bi-arrow-clockwise fs-4"></i></button>
+                                        <input type="text" class="form-control" placeholder="Nhập mã captcha">
+                                    </div>
+                                </div>
+                                <p class="small text-muted mt-3 mb-4">
+                                    Tôi đã đọc và đồng ý với <a href="#" class="text-danger text-decoration-none fw-bold">CHÍNH SÁCH</a> của chương trình.
+                                </p>
+                                <button class="btn w-100 text-white fw-bold py-2" style="background-color: #ff5f2d; border-radius: 4px;">ĐĂNG KÝ</button>
+                            </div>
+
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
